@@ -5,7 +5,7 @@ Dinov2 Image Retrieval: Retrieve the most similar images.
 ---
 
 
-## **3. Self-Dataset Preparation**
+## **2. Self-Dataset Preparation**
 
 ### **Download Code**
 ```bash
@@ -51,7 +51,7 @@ The file structure should be like this:
 
 ---
 
-## **4. Inference Data**
+## **3. Inference Data**
 Run the following command to start the inference:
 ```bash
 python inference.py --CheckFolder data/... --OutputFolder xxx/xxx
@@ -91,7 +91,7 @@ After inference, the file structure will look like this:
 
 ---
 
-## **5. Visualization**
+## **4. Visualization**
 
 To visualize the results, use the following command:
 ```bash
@@ -109,5 +109,18 @@ Example:
 ```bash
 python visualize.py --ImageType JPG --ResultFolder output/surrounding/surrounding1 --DataFolder data/surrounding/surrounding1 --GenerateTxtFolder txt_folder --Eval
 ```
+```
 
+---
 
+## **5. Evaluation**
+To evaluate accuracy, use the following command:
+```bash
+python evaluation.py --EvaluatedFolder xxx
+```
+- **EvaluatedFolder**: result similarity txt folder path
+
+Example:
+```bash
+python evaluation.py --EvaluatedFolder result_similarity
+```
