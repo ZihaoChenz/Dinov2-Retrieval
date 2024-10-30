@@ -37,27 +37,8 @@ The file structure should be like this:
 
 ```plaintext
 ├── data
-│   ├── building
-│   │   ├── building1
-│   │   │   ├── check
-│   │   │   │   ├── img1.jpg
-│   │   │   │   ├── img2.jpg
-│   │   │   │   └── img3.jpg
-│   │   │   ├── ref
-│   │   │   │   ├── img4.jpg
-│   │   │   │   ├── img5.jpg
-│   │   │   │   └── img6.jpg
-│   │   ├── south-building
-│   │   │   ├── check
-│   │   │   │   ├── img1.jpg
-│   │   │   │   ├── img2.jpg
-│   │   │   │   └── img3.jpg
-│   │   │   ├── ref
-│   │   │   │   ├── img4.jpg
-│   │   │   │   ├── img5.jpg
-│   │   │   │   └── img6.jpg
 │   ├── surrounding
-│   │   ├── Cyberport
+│   │   ├── surrounding1
 │   │   │   ├── check
 │   │   │   │   ├── img1.jpg
 │   │   │   │   ├── img2.jpg
@@ -66,7 +47,7 @@ The file structure should be like this:
 │   │   │   │   ├── img4.jpg
 │   │   │   │   ├── img5.jpg
 │   │   │   │   └── img6.jpg
-│   │   ├── HKU
+│   │   ├── surrounding2
 │   │   │   ├── check
 │   │   │   │   ├── img1.jpg
 │   │   │   │   ├── img2.jpg
