@@ -109,9 +109,7 @@ Example:
 ```bash
 python visualize.py --ImageType JPG --ResultFolder output/surrounding/surrounding1 --DataFolder data/surrounding/surrounding1 --GenerateTxtFolder txt_folder --Eval
 ```
-```
 
----
 
 ## **5. Evaluation**
 To evaluate accuracy, use the following command:
