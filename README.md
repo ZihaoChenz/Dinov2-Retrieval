@@ -147,7 +147,7 @@ After inference, the file structure will look like this:
 
 ---
 
-## **5. Visualization (Normal Method)**
+## **5. Visualization**
 
 To visualize the results, use the following command:
 ```bash
@@ -164,30 +164,4 @@ Example:
 python visualize.py --ImageType JPG --ResultFolder output/building/building1 --DataFolder data/building/building1
 ```
 
----
 
-## **6. Centroid Method for Matching**
-
-### **Create Embeddings**
-
-To create embeddings, run:
-```bash
-python create_embedding.py --Embedding_target_folder xxx/xxx --Embedding_save_folder xxx/xxx
-```
-- **Embedding_target_folder**: Folder containing data to generate embeddings (e.g., `output/building`)
-- **Embedding_save_folder**: Folder to save the generated embeddings (e.g., `embedding/building`)
-
-### **Visualize (Centroid Method)**
-
-```bash
-python visualize.py --ImageType xxx --GalleryData xxx/xxx --CheckTxtFolder xxx/xxx --OutputBaseFolder xxx/xxx
-```
-- **GalleryData**: Path to the embedding data folder
-- **CheckTxtFolder**: Path to the folder containing check `.txt` files
-- **OutputBaseFolder**: Path to the base folder of the check images
-- Use `--Normalize` to normalize features if necessary
-
-Example:
-```bash
-python visualize.py --ImageType jpg --GalleryData embedding/surrounding --CheckTxtFolder output/surrounding/Cyberport/check --OutputBaseFolder output/surrounding
-```
