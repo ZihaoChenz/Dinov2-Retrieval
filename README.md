@@ -1,6 +1,6 @@
 ## **1. Introduction**
 
-Dinov2 location matching converts an image into a one-dimensional feature using Dinov2. By calculating the similarity between features, the location information of the image is determined within an object.
+Dinov2 Image Retrieval: Retrieve the most similar images.
 
 ---
 
