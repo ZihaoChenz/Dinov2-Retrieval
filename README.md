@@ -19,7 +19,7 @@ Dinov2 location matching converts an image into a one-dimensional feature using 
 
 ### **Download Code**
 ```bash
-git clone https://github.com/ZihaoChenz/Dinov2_Matching.git
+git clone https://github.com/ZihaoChenz/Dinov2_Retrieval.git
 ```
 
 ### **Install Environment**
