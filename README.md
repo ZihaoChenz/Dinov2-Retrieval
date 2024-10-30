@@ -1,6 +1,7 @@
 ## **1. Introduction**
 
 Dinov2 Image Retrieval: Retrieve the most similar images.
+Including UI visualize and evaluation
 
 ---
 
